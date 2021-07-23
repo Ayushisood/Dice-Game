@@ -40,7 +40,7 @@ const rollDice = function () {
     let randomDice = Math.trunc(Math.random() * 6 + 1);
 
     dice.classList.remove('hidden');
-    dice.src = `dice-${randomDice}.png`;
+    dice.src = `src/dice-${randomDice}.png`;
 
     //when number of dice is not one
     if (randomDice !== 1) {
