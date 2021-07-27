@@ -18,7 +18,7 @@ Dice-Game : [Netlify](https://dice-game-projects.netlify.app/)
 
 ## Screenshots
 
-![Alt text](/img/screenshots/ss2.png?raw=true)\
+![Alt text](/img/screenshots/ss2.png?raw=true)
 
 ![Alt text](/img/screenshots/ss1.png?raw=true "When player wins the game")
 
