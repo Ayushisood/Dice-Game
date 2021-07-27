@@ -1,4 +1,10 @@
-'use strict';
+import 'core-js/stable';
+import dice1 from 'url:/img/dice-1.png';
+import dice2 from 'url:/img/dice-2.png';
+import dice3 from 'url:/img/dice-3.png';
+import dice4 from 'url:/img/dice-4.png';
+import dice5 from 'url:/img/dice-5.png';
+import dice6 from 'url:/img/dice-6.png';
 
 let playerOneScoreEl = document.getElementById('score--0');
 let playerTwoScoreEl = document.getElementById('score--1');
@@ -40,7 +46,12 @@ const rollDice = function () {
     let randomDice = Math.trunc(Math.random() * 6 + 1);
 
     dice.classList.remove('hidden');
-    dice.src = `src/dice-${randomDice}.png`;
+    if (randomDice === 1) dice.src = `${dice1}`;
+    if (randomDice === 2) dice.src = `${dice2}`;
+    if (randomDice === 3) dice.src = `${dice3}`;
+    if (randomDice === 4) dice.src = `${dice4}`;
+    if (randomDice === 5) dice.src = `${dice5}`;
+    if (randomDice === 6) dice.src = `${dice6}`;
 
     //when number of dice is not one
     if (randomDice !== 1) {
