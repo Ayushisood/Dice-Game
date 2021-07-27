@@ -2,9 +2,10 @@
   "name": "dice-game",
   "version": "1.0.0",
   "description": "game of rolling dice",
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Ayushi",
   "license": "ISC",
