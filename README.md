@@ -1,25 +1,27 @@
 # Dice-Game Project
 
-## Overview
+## Aim
 
-Dice Button - to roll the dice
-Hold Button - to add the current score to total score and pass the dice to other player
-Restart button - to restart the game 
-Winner - Winner will be one who scores more than 100 
-Dice will be passed to other player if dice rolls to one
+Aim of the project was to implement dice roll functionality using Javascript between two players
+
+## Functionality
+
+Dice Button - to roll the dice__
+Hold Button - to add the current score to total score and pass the dice to other player__
+Restart button - to restart the game__
+Winner - Winner will be one who scores more than 100__ 
+Dice will be passed to other player if dice rolls to one__
 
 ## Link
 
 Dice-Game : [Netlify](https://dice-game-projects.netlify.app/) 
 
-##Screenshots
+## Screenshots
 
-![Alt text](/img/screenshots/ss1.png?raw=true)
-![Alt text](/img/screenshots/ss2.png?raw=true "When player wins the game")
+![Alt text](/img/screenshots/ss2.png?raw=true)
 
-## Aim
+![Alt text](/img/screenshots/ss1.png?raw=true "When player wins the game")
 
-Aim of the project was to implement dice roll functionality using Javascript between two players
 
 ## Built with
 
@@ -29,6 +31,6 @@ Aim of the project was to implement dice roll functionality using Javascript bet
 
 ## Features
 
-*Dice Roll
-*Restart Game
-*Hold button to add current score 
+* Dice Roll
+* Restart Game
+* Hold button to add current score 
